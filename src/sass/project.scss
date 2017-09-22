@@ -1,0 +1,36 @@
+//连接scss文件
+@import 'common.scss';
+.bigbox {
+    //  background: #f5f5f5;
+    .project1 {
+        background-color: #f2f2f2;
+        h2,
+        h3,
+        h4 {
+            padding: 10px 0;
+            text-align: center;
+        }
+        h2 {
+            color: #fff;
+            color: #333;
+
+        }
+    }
+    .g_box {
+        p {
+            text-indent: 2em;
+            line-height: 30px;
+            color: #666;
+        }
+        p.title{
+            font-size: 18px;
+            color: #31a030;
+        }
+        img{
+            display: block;
+            margin: 20px auto;
+            max-width: 300px;
+            max-height: 200px;
+        }
+    }
+}

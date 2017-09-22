@@ -1,0 +1,139 @@
+//连接scss文件
+@import 'common.scss'; 
+
+//content-start
+.content_over {
+    width: 100%;
+    margin: 50px auto;
+    .g_box {
+        //      border: 1px solid blue;
+        display: flex;
+        div.list {
+            flex: 1;
+            margin-right: 20px;
+            height: 400px;
+            div {
+                height: 50%;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            p{
+                padding: 20px;
+                line-height: 30px;
+                text-indent: 2em;
+            }
+            .list_02 {
+                background-color: #dfe1e2;
+            }
+            .list_03 {
+                background-color: #f8faed;
+            }
+            .list_06 {
+                background-color: #F2DEDE;
+            }
+            .list_07 {
+                background-color: #E5CBB2;
+            }
+        }
+        div.list:last-child {
+            margin: 0;
+        }
+    }
+}
+//resource
+.resource {
+    width: 100%;
+    margin-bottom: 30px;
+    .g_box {
+        margin: 0 auto;
+        overflow: hidden;
+        h3 {
+            font-size: 28px;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+        ul{
+            border-top: 1px solid #d8d8d8;
+            li{
+                width: 155px;
+                float: left;
+                text-align: center;
+                border-right: 1px solid #d8d8d8;
+                padding: 25px 0 15px;
+                line-height: 25px;
+                border-bottom:1px solid #d8d8d8;
+                i{
+                   width: 57px;
+                   height: 57px;
+                   display: block;
+                   margin: 0 auto;
+                   margin-bottom: 5px; 
+                }
+                .courseware{
+                    background: url(../img/index/sprite.png)0 -58px no-repeat;
+                   
+                }
+                .lessonplan{
+                    background: url(../img/index/sprite.png)0 -120px no-repeat;
+                }
+                .example{
+                    background: url(../img/index/sprite.png)6px -419px no-repeat;
+                }
+                .documents{
+                    background: url(../img/index/sprite.png)6px -481px no-repeat;
+                }
+                .practice{
+                    background: url(../img/index/sprite.png)6px -352px no-repeat;
+                }
+                .testpaper{
+                    background: url(../img/index/sprite.png)6px -665px no-repeat;
+                }
+                .raw{
+                    background: url(../img/index/sprite.png)6px -724px no-repeat;
+                }
+                .teachingdesign{
+                    background: url(../img/index/sprite.png)0px -230px no-repeat;
+                }
+                .casestudy{
+                    background: url(../img/index/sprite.png)0px -293px no-repeat;
+                }
+                .coursevideo{
+                    background: url(../img/index/sprite.png)6px -175px no-repeat;
+                }
+                .faq{
+                    background: url(../img/index/sprite.png)0px -608px no-repeat;
+                }
+                .course{
+                    background: url(../img/index/sprite.png)0px -0px no-repeat;
+                    width: 44px;
+                }
+                .term{
+                    background: url(../img/index/sprite.png)5px -543px no-repeat;
+                }
+                .personage{
+                    background: url(../img/index/sprite.png)0px -1495px no-repeat;
+                }
+               .cGray{
+                   color: #999;
+               }
+            }
+            li:nth-child(7){
+                border-right: none;
+            }
+            li:nth-child(14)
+            {
+                border-right: none;
+            }
+            li:hover{
+                box-shadow: 0 2px 2px #ccc;
+           background: #F4F4F4;
+           cursor: pointer;
+            } 
+            li:hover i{
+                transform: rotate(-30deg);
+            }
+        }
+    }
+}

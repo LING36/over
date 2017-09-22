@@ -1,0 +1,26 @@
+//连接scss文件
+@import 'common.scss';
+body {
+    background: #f5f5f5;
+}
+.login_box {
+    width: 100%;
+    margin-top: 70px;
+    .g_box {
+        background: #fff;
+        div.index {
+            text-align: left;
+            margin: 0 auto;
+            height: 35px;
+            line-height: 35px;
+            font-size: 12px;
+            background: #f5f5f5;
+        }
+    }
+    .eastLogin {
+        padding: 50px;
+        box-sizing: border-box;
+        width: 100%;
+        background: url("../img/index/loginBg.gif") repeat-x;
+    }
+}
